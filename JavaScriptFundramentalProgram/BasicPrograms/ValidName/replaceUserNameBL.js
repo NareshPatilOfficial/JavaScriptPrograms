@@ -1,7 +1,7 @@
 
 /**
  * FuctionalPrograms/replaceUserNameBL.
- * @module FuctionalPrograms/replaceUserNameBL
+ * @module BasicPrograms/replaceUserNameBL
  */
 
 module.exports = {

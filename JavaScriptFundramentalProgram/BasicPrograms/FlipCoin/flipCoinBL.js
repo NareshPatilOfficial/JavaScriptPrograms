@@ -1,7 +1,7 @@
 
 /**
- * FuctionalPrograms/FlipCoin.
- * @module FuctionalPrograms/FlipCoin
+ * BasicPrograms/FlipCoin.
+ * @module BasicPrograms/FlipCoin
  */
 
 module.exports = {
