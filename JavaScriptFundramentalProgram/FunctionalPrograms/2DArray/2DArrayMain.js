@@ -1,29 +1,37 @@
+/******************************************************************************
+ *  Execution       : 1. default node         cmd> node 2DArrayMain.js
+ *
+ *  Purpose         : Take User Input and store it into diffrent kind of array
+ *                    and print corresponding that array.
+ *
+ *  @description    : A library for reading in 2D arrays of integers, doubles,
+ *                    or booleans from standard input and printing them out to standard output.
+ *  @file           : 2DArrayMain.js
+ *  @overview       : take user input and enter store it into the array. 
+ *  @module         : module_name - This is optional if expeclictly its an npm or local package
+ *  @author         : Naresh Patil <nareshpatil.nrp@gmail.com>
+ *  @version        : 1.0
+ *  @since          : 21-01-2020
+ ******************************************************************************/
 
-const readLine = require('F:/BridgeLabzAngular/Angular/JavaScriptFundramentalProgram/node_modules/readline-sync');
+
+const lib = require('./2DArrayBL');
 
 
 try{
     console.log('Naresh Patil');
 
-    let arr = [[][]];
-    let ele = 0;
-    let row = 4;
-    let column = 4;
+    // For Interger.
+    // let intArr = lib.readIntArr();
+    // lib.printIntArr(intArr);
 
-    for(let i=0;i<row;i++){
-        for(let j=0;j<column;j++){
-            ele = readLine.questionInt('Enter Integer in  : ');
-            arr[i][j] = ele;
-            // console.log(i,j);
-        }
-    }
+    // For Float.
+    // let floatArr = lib.readFloatArr();
+    // lib.printFloatArr(floatArr);
 
-    // for(let i=0;i<row;i++){
-    //     for(let j=0;j<column;j++){
-    //         process.stdout.write(arr[i][j]+' ');
-    //     }
-    //     console.log();
-    // }
+    let boolArr = lib.readBoolArr();
+    lib.printFloatArr(boolArr);
+
 
 }catch(err){
     console.log(err);
