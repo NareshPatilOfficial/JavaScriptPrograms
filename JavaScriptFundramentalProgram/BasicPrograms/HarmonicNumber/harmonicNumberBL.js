@@ -1,6 +1,6 @@
 
 /**
- * FuctionalPrograms/HarmonicNumber.
+ * BasicPrograms/HarmonicNumber.
  * @module BasicPrograms/FlipCoin
  */
 
