@@ -19,5 +19,5 @@ try{
     let num = readLine.question('Enter Number Number : ');
     console.log(harmonicNumberBL.harmonicOf(num));
 }catch(err){
-    console.log(err);
+    throw err
 }
