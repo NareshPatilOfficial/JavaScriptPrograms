@@ -14,13 +14,13 @@
  ******************************************************************************/
 
 
-const readline = require('F:/BridgeLabzAngular/Angular/JavaScriptFundramentalProgram/node_modules/readline-sync');
-const yearUT  = require('./LeapYearBL');
+const readline = require('readline-sync');
+const yearUT = require('./LeapYearBL');
 
-try{
-    var year = readline.question('Enter The Year : ');  
+try {
+    var year = readline.questionInt('Enter The Year : ');
     yearUT.isLeap(year);
 }
-catch(err){
+catch (err) {
     console.log(err);
 }
