@@ -13,7 +13,7 @@
     "mocha": "^7.0.0"
   },
   "scripts": {
-    "test": " mocha F:/BridgeLabzAngular/Angular/JavaScriptFundramentalProgram/test/VendingMachine"
+    "test": " mocha test/VendingMachine/vendingMachineMain.js"
   },
   "keywords": [],
   "author": "",

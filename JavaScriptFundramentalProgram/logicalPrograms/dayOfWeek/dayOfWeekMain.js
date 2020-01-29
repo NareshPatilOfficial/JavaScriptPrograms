@@ -25,6 +25,12 @@ try{
      month == 2 && dayOfWeekLib.isLeapYear(year) ? days[month] = 29 : days[month] ;
      let d = dayOfWeekLib.day(month, date, year);
      console.log(d);
+    // describe('vedingMachine', () => {
+    //     'asd',
+    //     it('Check Currency', () => {
+    //         assert.equal(true,true);
+    //     })
+    // })
 }catch(err){
     console.log(err);
 }
