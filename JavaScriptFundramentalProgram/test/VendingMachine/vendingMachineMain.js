@@ -23,10 +23,12 @@ const vendingLib = require('./vendingMachineBL');
 const assert = require('assert');
 
 try {
+    vendingLib.countCurrency(868);
+    let checkResult = '1 1 1 1 1 1 3 ';
     describe('vedingMachine', () => {
         'asd',
         it('Check Currency', () => {
-            assert.equal(true,true);
+            assert.equal(vendingLib.giveCurrency(),checkResult);
         })
     })
 } catch (err) {

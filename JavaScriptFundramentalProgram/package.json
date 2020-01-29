@@ -13,7 +13,7 @@
     "mocha": "^7.0.0"
   },
   "scripts": {
-    "test": " mocha test/VendingMachine/vendingMachineMain.js"
+    "test": " mocha test/dayOfWeek/dayOfWeekMain.js"
   },
   "keywords": [],
   "author": "",

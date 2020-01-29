@@ -21,17 +21,15 @@ module.exports = {
             }
         }
     },
-
     /**
      * it will print count currency.
      * @return {void} .
      */
     giveCurrency:() => {
-
         for(let i=0;i<len;i++){
             if(noteCounter[i] != undefined){
-                console.log(`${notes[i]} = ${noteCounter[i]}`);
+                process.stdout.write(`${noteCounter[i]} `);
             }
-        }
+        }console.log();
     }
 }
