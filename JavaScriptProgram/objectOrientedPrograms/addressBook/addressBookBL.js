@@ -125,7 +125,7 @@ class AddressBook{
         fs.writeFileSync('AddressBook.json',JSON.stringify(this.entries));
     }
     /**
-     * @module-it will print the all data of JSON file. 
+     * @module-it will print the all data of AddressBook JSON file. 
     */
     printBookData(){
         console.log(this.entries.person);
