@@ -15,7 +15,6 @@ const readLine = require('readline-sync');
 try{
     let main = () => {
         let AB = new addBookLib.AddressBook();
-        // AB.addEntry();
             while(true){
                 console.log('1 = For Add Entry.');
                 console.log('2 = For Delete Entry.');
