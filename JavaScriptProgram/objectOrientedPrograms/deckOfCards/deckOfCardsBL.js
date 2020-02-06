@@ -1,8 +1,17 @@
-
+/**
+ * objectOrientedPrograms/deckOfCards.
+ * @module objectOrientedPrograms/deckOfCards
+ */
+/**
+ * @class CardGame
+*/
 class CardGame{
     constructor(){
         this.card = [];
     }
+    /**
+     * @module-it will generate cards. 
+    */
     cards(){
         let suit  = ["Clubs", "Diamonds", "Hearts", "Spades"];
         let rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"];
@@ -15,6 +24,9 @@ class CardGame{
         }
         console.log(this.card);
     }
+    /**
+     * @module-it will Shuffles the Cards. 
+    */
     shuffleCards(){
         let len = this.card.length;
         for(let i=0;i<len;i++){
@@ -25,6 +37,9 @@ class CardGame{
         }
         console.log(this.card);
     }
+    /**
+     * @module-it will Distribute the cards among 4 players. 
+    */
     distributeCards(){
         let cardsDistribute = {"players":[]};
         let playersNo = cardsDistribute.players.length;
