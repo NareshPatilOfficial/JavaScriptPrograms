@@ -1,4 +1,45 @@
 {
-    "patients": [],
-    "doctores": []
+    "doctors": [
+        {
+            "id": 501,
+            "name": "Parmar",
+            "specialization": "Born",
+            "availability": "9AM to 12PM"
+        },
+        {
+            "id": 502,
+            "name": "Girase",
+            "specialization": "All Rounder",
+            "availability": "6AM to 6PM"
+        }
+    ],
+    "patients": [
+        {
+            "id": 101,
+            "docterId": 502,
+            "name": "Ashwini",
+            "appointmentFrom": "Girase",
+            "phone": 8523697412,
+            "age": 50,
+            "onTheDayOf": 31
+        },
+        {
+            "id": 102,
+            "docterId": 1234,
+            "name": "Suraa",
+            "appointmentFrom": "Dr.Preeti",
+            "phone": 7412589631,
+            "age": 23,
+            "onTheDayOf": 30
+        },
+        {
+            "id": 103,
+            "docterId": 502,
+            "name": "Paras",
+            "appointmentFrom": "Girase",
+            "phone": 9512368745,
+            "age": 24,
+            "onTheDayOf": 12
+        }
+    ]   
 }
