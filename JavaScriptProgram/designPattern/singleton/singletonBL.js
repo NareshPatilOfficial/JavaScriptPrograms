@@ -13,6 +13,7 @@ class SingltonPat{
      * It will return object single object.
      * @return {object} return object.
     */
+   
     getObject(){
        if(object == null){
             object = new SingltonPat('Object1');
