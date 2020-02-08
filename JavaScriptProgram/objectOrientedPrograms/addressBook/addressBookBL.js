@@ -93,7 +93,7 @@ class AddressBook{
     /**
      * @module-it will sort the data by name and update JSON file. 
     */
-    shortByName(){
+    sortByName(){
         for(let i=0;i<this.entries.person.length;i++){
             for(let j=0;j<this.entries.person.length - 1;j++){
                 if(this.entries.person[j].fname > this.entries.person[j+1].fname){
@@ -104,13 +104,13 @@ class AddressBook{
             }
         }
         // console.log(this.entries.person);
-        console.log('Data Shorted Successfully BY Name.');
+        console.log('Data sorted Successfully BY Name.');
         fs.writeFileSync('AddressBook.json',JSON.stringify(this.entries));
     }
     /**
      * @module-it will sort the data by zip and update JSON file. 
     */
-    shortByZip(){
+    sortByZip(){
         for(let i=0;i<this.entries.person.length;i++){
             for(let j=0;j<this.entries.person.length - 1;j++){
                 if(this.entries.person[j].zip > this.entries.person[j+1].zip){
@@ -121,7 +121,7 @@ class AddressBook{
             }
         }
         // console.log(this.entries.person);
-        console.log('Data Shorted Successfully BY Zip.');
+        console.log('Data sorted Successfully BY Zip.');
         fs.writeFileSync('AddressBook.json',JSON.stringify(this.entries));
     }
     /**
