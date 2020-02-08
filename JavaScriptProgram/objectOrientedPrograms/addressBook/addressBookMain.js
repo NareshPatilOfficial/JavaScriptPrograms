@@ -38,10 +38,10 @@ try{
                         AB.printBookData();
                         break;
                     case 5:
-                        AB.shortByName();
+                        AB.sortByName();
                         break;
                     case 6:
-                        AB.shortByZip();
+                        AB.sortByZip();
                         break;
                     case 7:
                         process.exit(0);
