@@ -1,6 +1,6 @@
 /**
- * LogicalPrograms/Gambler.
- * @module BasicPrograms/Gambler
+ * logicalPrograms/gambler.
+ * @module logicalPrograms/gambler
  */
 module.exports = {
     /**
@@ -11,7 +11,6 @@ module.exports = {
     getRandomInt:(max) => {
         return Math.floor(Math.random() * Math.floor(max));
     },
-
     /**
      * this is simulatore by this we get to know the palyer won or loss.
      * @param {number} stake - it take number as invest the stake.
